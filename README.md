@@ -40,6 +40,47 @@ L'arboressance :
 
 <img width="825" height="273" alt="image" src="https://github.com/user-attachments/assets/84019807-da07-4b5d-858b-96afc34c5bbf" />
 
+Task 2 — Préparer l'artefact autorisé
+
+Option A : APK pédagogique fourni ( Diva )
+
+1- Copier l'APK dans le dossier 00-scope
+
+<img width="965" height="52" alt="image" src="https://github.com/user-attachments/assets/4c00ed8d-2f93-4884-b116-6b59f81cf4f1" />
+
+2- Calculer et afficher le hash SHA-256 de l'APK
+
+<img width="962" height="135" alt="image" src="https://github.com/user-attachments/assets/54a082af-c961-4cc9-a7b5-ab12aaccb515" />
+
+3- Mettre à jour analyse_info.txt avec le hash
+
+<img width="965" height="71" alt="image" src="https://github.com/user-attachments/assets/f1227649-f41a-49c8-be5e-13edaa26c5e7" />
+
+<img width="1012" height="307" alt="image" src="https://github.com/user-attachments/assets/f3252d2c-0805-462b-bab9-3fe47b90aeda" />
+
+4- Enregistrer la commande dans le log:
+
+"Copy-Item -Path 'E:\EMSI\4IIR\S2\Securites_des_apps_mobiles\diva-apk-file\DivaApplication.apk' -Destination '00-scope\'" 
+"Get-FileHash -Path '00-scope\DivaApplication.apk' -Algorithm SHA256" 
+
+<img width="963" height="117" alt="image" src="https://github.com/user-attachments/assets/ae5dd1ff-589e-410c-971d-58a030babe21" />
+
+<img width="1257" height="206" alt="image" src="https://github.com/user-attachments/assets/9f4fc676-db19-4e7f-b177-501f64b61540" />
+
+Task 3 — Démarrage et prise en main BeVigil
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
